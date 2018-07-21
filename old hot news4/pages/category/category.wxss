@@ -1,0 +1,131 @@
+.back{
+width: 100%;  
+}
+.catalog1{
+  position: fixed;
+  top: 50rpx;
+  bottom: 700rpx;
+  left: 100rpx;
+  right: 650rpx;
+  width: 30%;
+  height: 25%;
+}
+.catalog-tech{
+  position: fixed;
+  top: 130rpx;
+  bottom: 620rpx;
+  left: 150rpx;
+  right: 600rpx;
+  width: 20%;
+  height: 10%;
+  font-size: 60rpx;
+  color: #fff;
+}
+.catalog2{
+  position: fixed;
+  top: 50rpx;
+  bottom: 700rpx;
+  left: 500rpx;
+  right: 250rpx;
+  width: 30%;
+  height: 23%;
+}
+.catalog-sport{
+  position: fixed;
+  top: 130rpx;
+  bottom: 620rpx;
+  left: 550rpx;
+  right: 200rpx;
+  width: 20%;
+  height: 10%;
+  font-size: 60rpx;
+  color: #fff;
+}
+.catalog3{
+  position: fixed;
+  top: 400rpx;
+  bottom: 350rpx;
+  left: 100rpx;
+  right: 650rpx;
+  width: 30%;
+  height: 25%;
+}
+.catalog-amuse{
+  position: fixed;
+  top: 450rpx;
+  bottom: 300rpx;
+  left: 150rpx;
+  right: 600rpx;
+  width: 20%;
+  height: 10%;
+  font-size: 60rpx;
+  color: #fff;
+}
+.catalog4{
+  position: fixed;
+  top: 400rpx;
+  bottom: 350rpx;
+  left: 500rpx;
+  right: 250rpx;
+  width: 30%;
+  height: 25%;
+}
+.catalog-society{
+  position: fixed;
+ top: 450rpx;
+  bottom: 300rpx;
+  left: 530rpx;
+  right: 220rpx;
+  width: 20%;
+  height: 10%;
+  font-size: 60rpx;
+  color: #fff;
+}
+.catalog5{
+  position: fixed;
+  top: 700rpx;
+  bottom: 50rpx;
+  left: 100rpx;
+  right: 650rpx;
+  width: 30%;
+  height: 25%;
+}
+.catalog-economic{
+  position: fixed;
+  top: 745rpx;
+  bottom: 5rpx;
+  left: 150rpx;
+  right: 600rpx;
+  width: 20%;
+  height: 10%;
+  font-size: 60rpx;
+  color: #fff;
+}
+.catalog6{
+  position: fixed;
+  top: 700rpx;
+  bottom: 50rpx;
+  left: 470rpx;
+  right: 280rpx;
+  width: 30%;
+  height: 25%;
+}
+.catalog-military{
+  position: fixed;
+  top: 750rpx;
+  bottom: 0rpx;
+ left: 530rpx;
+  right: 220rpx;
+  width: 20%;
+  height: 10%;
+  font-size: 60rpx;
+  color: #fff;
+}
+
+.nav-default{
+
+  color:#fff;
+}
+.nav-hover{
+  color: #0099CC;
+}

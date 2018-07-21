@@ -1,0 +1,17 @@
+.top{
+  display: flex;
+  flex-direction: column;
+ padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.title{
+  font-size: 55rpx;
+  font-weight: 700;
+  padding-bottom: 30rpx;
+}
+.source{
+  font-size: 33rpx;
+  color: #999999;
+  padding-bottom: 30rpx;
+}
+

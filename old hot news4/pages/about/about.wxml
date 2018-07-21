@@ -1,0 +1,6 @@
+<text class='aboutme'>本小程序旨在按照时间顺序，尽可能地提供“旧闻”中曾经热过的事件、知识，以图温故而知新。</text>
+<text class='aboutme'>按照时间排序，根据热度筛选，将曾经活跃过的新闻热点展示出来，从而快速呈现群众舆论导向。</text>
+<view >
+<image bindtap="changestatusback" wx:if="{{status}}" class='tool-item' src='/images/after-collected.jpg'></image>
+<image bindtap="changestatus" wx:else  class='tool-item'src="/images/before-collected.jpg"></image>
+</view>

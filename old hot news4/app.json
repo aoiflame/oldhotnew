@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/category/category",
+    "pages/me/me",
+    "pages/keyword/keyword",
+    "pages/news/news",
+    "pages/content/content",
+    "pages/logs/logs",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "昨日头条",
+    "navigationBarTextStyle":"black"
+  },
+ "tabBar": {
+   "list": [{
+     "pagePath": "pages/category/category",
+     "text": "相关频道",
+     "iconPath": "images/icons/category.jpg",
+     "selectedIconPath": "images/icons/category-selected.jpg"
+   },
+   {
+     "pagePath": "pages/me/me",
+    "text": "我",
+    "iconPath": "images/icons/me.jpg",
+    "selectedIconPath": "images/icons/me-selected.jpg"
+   }
+   ],
+   "selectedColor": "#000000"
+ }
+}

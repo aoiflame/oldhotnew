@@ -1,0 +1,24 @@
+.image-news{
+width: 200rpx;
+height: 200rpx;
+}
+.news-all{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 4rpx solid #f1f1f1;
+}
+.text-news{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500rpx;
+}
+.title{
+  font-size: 35rpx;
+  font-weight:bold;
+  flex-wrap: wrap;
+}
+.time{
+  font-size: 30rpx;
+  font-weight:300;
+}

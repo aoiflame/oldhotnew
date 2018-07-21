@@ -1,0 +1,9 @@
+<view  wx:for='{{list}}' wx:key="list">
+<view class='news-all'>
+<image src='/images/use.jpg' class='image-news'></image>
+<view class='text-news'>
+<navigator url='/pages/content/content?add={{item.url}}&newid={{someid}}'  hover-class='nav-hover' class='title'>{{item.title}}</navigator> 
+<text class='time'>{{item.dt}} {{item.source}}</text>
+</view>
+</view>
+</view>

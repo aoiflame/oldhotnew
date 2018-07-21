@@ -1,0 +1,28 @@
+<view>
+<view class='bg' style="background-image: url('http://m.qpic.cn/psb?/V10Wml8Y2BZ1H4/I79eP9CZ0OQmbx7AwVNVYpSKlWYoHGrod5dXPRRybYQ!/b/dIMAAAAAAAAA&bo=vALcBAAAAAARB1Y!&rf=viewer_4');background-size: cover"><!--http://m.qpic.cn/psb?/V10Wml8Y2BZ1H4/I79eP9CZ0OQmbx7AwVNVYpSKlWYoHGrod5dXPRRybYQ!/b/dIMAAAAAAAAA&bo=vALcBAAAAAARB1Y!&rf=viewer_4'-->
+ <view class='view-header'></view>
+ <view class='view-list' wx:for='{{list}}' wx:key="list">
+  <view class='view-list-cell'>
+    <view class='view-line'>
+    <view class='view-line-top'></view>
+    <view class='view-line-bottom'></view>
+    </view>
+    <view class='view-cell-dot'>
+    <view class='view-dot'></view>
+    </view>
+    <view class='view-cell-image'>
+    <view class='view-header-image'>
+    <view class='view-cell-time'>
+    <view class='view-time'>{{item.dt}}</view>
+    </view>
+    <view class='view-row-image'>
+   <navigator url="/pages/news/news?id=new{{item.id1}}" hover-class='nav-hover' class='k-default'>{{item.key11}} {{item.key12}} {{item.key13}}</navigator>
+    <navigator url="/pages/news/news?id=new{{item.id2}}" hover-class='nav-hover' class='k-default'>{{item.key21}} {{item.key22}} {{item.key23}}</navigator>
+    <navigator url="/pages/news/news?id=new{{item.id3}}" hover-class='nav-hover' class='k-default'>{{item.key31?item.key31:''}} {{item.key32?item.key32:''}} {{item.key33?item.key33:''}}</navigator>
+</view>
+    </view>
+    </view>    
+  </view>
+ </view>
+</view>
+</view>

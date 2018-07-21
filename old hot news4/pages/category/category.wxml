@@ -1,0 +1,19 @@
+<view>
+<image src='/images/cate-button/11.jpg' class='catalog1'></image>
+<navigator  url='/pages/keyword/keyword?class=tech' class='catalog-tech'>科技</navigator>
+
+<image src='/images/cate-button/22.jpg' class='catalog2'></image>
+<navigator  url='/pages/keyword/keyword?class=sport' class='catalog-sport'>体育</navigator>
+
+<image src='/images/cate-button/33.jpg' class='catalog3'></image>
+<navigator  url='/pages/keyword/keyword?class=ent' class='catalog-amuse'>娱乐</navigator>
+
+<image src='/images/cate-button/44.jpg' class='catalog4'></image>
+<navigator  url='/pages/keyword/keyword?class=soc' class='catalog-society'>社会</navigator>
+
+<image src='/images/cate-button/55.jpg' class='catalog5'></image>
+<navigator  url='/pages/keyword/keyword?class=eco' class='catalog-economic'>财经</navigator>
+
+<image src='/images/cate-button/66.jpg' class='catalog6'></image>
+<navigator  url='/pages/keyword/keyword?class=mil' class='catalog-military'>军事</navigator>
+</view>

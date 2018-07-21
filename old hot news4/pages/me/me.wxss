@@ -1,0 +1,53 @@
+.head{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25%;
+  padding-bottom: 80rpx;
+
+}
+.concision{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.me-banner{
+  border-radius: 50%;
+  width: 200rpx;
+  height: 200rpx;
+}
+.guanzhu{
+  border-bottom:2rpx solid #f1f1f1;
+  border-top: 2rpx solid #f1f1f1;
+  font-size: 55rpx;
+}
+.middle{
+  border-bottom:2rpx solid #f1f1f1;
+  font-size: 55rpx;
+}
+.title{
+  font-size: 55rpx;
+}
+.aboutme{
+  display: flex;
+  flex-direction: column;
+  color: #cccccc;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20rpx；
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color: #aaa;
+}
